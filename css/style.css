@@ -3,7 +3,7 @@
 }
 
 h1 {
-    font-family: bebas-neue, sans-serif;
+    font-family: 'Roboto Slab', serif;
 }
 
 p {
@@ -31,7 +31,7 @@ body {
 
 nav {
     margin: 0;
-    font-family: bebas-neue, sans-serif;
+    font-family: 'Roboto Slab', serif;
 }
 
 nav ul {
