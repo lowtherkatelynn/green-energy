@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: bebas-neue, sans-serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+body {
+    font-size: .75rem;
+    margin: 0 auto;
+}
+
+.masthead {
+    background-image: url(../img/masthead.jpg);
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    height: 150px;
+}
+
+nav {
+    margin: 0;
+    font-family: bebas-neue, sans-serif;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a:link {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+}
+
+.sun {
+    width: 100px;
+    height: 100px;
+    background-image: url(../img/sun.png);
+    background-size: contain;
+    background-position: center center;
+    padding: 0;
+}
+
+.recycle {
+    width: 100px;
+    height: 100px;
+    background-image: url(../img/recycle.png);
+    background-size: contain;
+    background-position: center center;
+}
+
+.windmill {
+    width: 100px;
+    height: 100px;
+    background-image: url(../img/windmill.png);
+    background-size: contain;
+    background-position: center center;
+}
+
+ul li {
+    list-style: none;
+}
+
+button {
+    border: none;
+    background-color: white;
+}
+
+footer {
+    width: 100%;
+    background-color: green;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+footer p {
+    display: inline-block;
+    padding: 0.5rem 0 0 0;
+}
+
+footer a {
+    background-size: 40px;
+    padding: .5rem;
+    color: white;
+    text-decoration-line: none;
+}
+
+#special-style {
+    border: 4px solid cornflowerblue;
+}
+
+
+@media all and (min-width: 30rem) and (max-width: 60rem) {
+    body {
+        font-size: 1rem;
+    }
+    nav ul li {
+        display: block;
+    }
+
+    ul {
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+        align-content: center;
+    }
+
+    li {
+        float: left;
+        width: 25%;
+    }
+
+    li a {
+        display: block;
+        text-align: center;
+        padding: 20px;
+    }
+}
+
+@media all and (min-width: 60rem) {
+    body {
+        font-size: 1rem;
+    }
+    nav ul li {
+        display: block;
+    }
+
+    ul {
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+        align-content: center;
+    }
+
+    li {
+        float: left;
+        width: 25%;
+    }
+
+    li a {
+        display: block;
+        text-align: center;
+        padding: 20px;
+    }
+}
